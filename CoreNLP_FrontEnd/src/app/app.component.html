@@ -1,0 +1,17 @@
+<div class="wrapper" style="text-align: center;">
+  <div class="intro">
+    <p>This Project uses the CoreNLP natural language analyis to generate the number of sentences, words and nouns in the text.</p>
+    <p>CoreNLP is your one stop shop for natural language processing in Java! CoreNLP enables users to derive linguistic annotations for text, including token and sentence boundaries, parts of speech, named entities, numeric and time values, dependency and constituency parses, coreference, sentiment, quote attributions, and relations. CoreNLP currently supports 6 languages: Arabic, Chinese, English, French, German, and Spanish.
+      </p>
+  </div>
+  <textarea required rows="15" cols="50" placeholder="Enter the text to be analyzed..." #titleInput></textarea>      <span></span>
+  <div style="text-align: center;">
+    <button (click)="generatepdf(titleInput.value)">Run</button>
+  </div>    
+  <div>
+    <br>
+    <br>
+    <p>Designed and built by Bhumi Chitroda</p>
+  </div>
+
+</div>
